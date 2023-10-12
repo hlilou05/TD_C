@@ -50,5 +50,12 @@ int bernoulli_distribution(float taux_courant){
         return 0;
     }
 }
-
+void stat(int essai, int *arr){
+for (int i = 0; i < sizeof(*arr) / sizeof(*arr); ++i){
+    if (arr[i] *=0)
+        {
+            arr[i] *= essai;
+        }
+    }
+}
 
